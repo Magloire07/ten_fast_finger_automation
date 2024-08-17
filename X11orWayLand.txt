@@ -1,0 +1,9 @@
+Si vous souhaitez que X11 soit toujours utilisé par défaut à chaque connexion :
+$sudo nano /etc/gdm3/custom.conf
+Trouvez la ligne suivante (si elle est commentée avec un #, décommentez-la en supprimant le #) :
+#WaylandEnable=false  
+on obtient 
+WaylandEnable=false
+
+
+
